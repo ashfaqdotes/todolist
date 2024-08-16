@@ -13,6 +13,7 @@ addTodo.addEventListener("click", async () => {
         todoList: inputData.value,
       });
       inputData.value = '';
+      show.scrollTop = show.scrollHeight;
       console.log("Document written with ID: ", docRef.id);
     } catch (e) {
       console.error("Error adding document: ", e);
