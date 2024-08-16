@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.card {
+  margin-top: 100px;
+  width: 400px;
+  height: 350px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.listGroup {
+  overflow-y: auto;
+}
